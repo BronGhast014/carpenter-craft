@@ -30,4 +30,4 @@ scoreboard players set crc:global CRC_installed 1
 
 # installation comments
 tellraw @a {"text":"Carpenter Craft by BronGhast014 has been installed!","color":"dark_green"}
-tellraw @a [{"text":"For help please use: ","color":"dark_purple"},{"text":"/function __help:carpenter_craft","color":"light_purple"}]
+tellraw @a [{"text":"For help please use: ","color":"dark_purple"},{"text":"/function __help:carpenter_craft","color":"light_purple","clickEvent":{"action":"run_command","value":"/function __help:carpenter_craft"}}]
