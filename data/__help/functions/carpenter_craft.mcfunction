@@ -1,8 +1,8 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.15.2 +
-# Copyright: June / 2020
-# Discription: Executes the creatures plus help function
+# Version: 1.16.2 +
+# Copyright: July / 2020
+# Discription: Executes the carpenter craft help function
 ################################################################################
 
-function crp:pack/help
+function crc:pack/help
