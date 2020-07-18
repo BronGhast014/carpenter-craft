@@ -1,15 +1,16 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.15.2 +
-# Copyright: January / 2020
-# Discription: Uninstalls the datapack
+# Version: 1.16.2 +
+# Copyright: April / 2020
+# Discription: Uninstalls Carpenter Craft
 ################################################################################
 
+# remove entities
 execute at @e[tag=CRC_db] run setblock ~ ~ ~ air
 tp @e[tag=CRC_seat] ~ ~-600 ~
 tp @e[tag=CRC_model] ~ ~-600 ~
 
-#remove scoreboards
+# remove scoreboards
 scoreboard objectives remove CRC_rayCount
 scoreboard objectives remove CRC_rot
 
@@ -26,5 +27,5 @@ scoreboard objectives remove CRC_craftedBook
 
 scoreboard objectives remove CRC_installed
 
-tellraw @a {"text":"Uninstalled!","color":"dark_red"}
+tellraw @a {"text":"Carpenter Craft has been Uninstalled","color":"dark_red"}
 tellraw @a {"text":"To complete the process please remove the datapack and resources.zip from your world folder","color":"yellow"}
