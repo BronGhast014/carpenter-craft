@@ -7,6 +7,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:birch_button"
+    "item": "minecraft:birch_button",
+    "count": 4
   }
 }
