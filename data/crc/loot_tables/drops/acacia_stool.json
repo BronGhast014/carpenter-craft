@@ -1,0 +1,1 @@
+{"type": "minecraft:block","pools": [{"rolls": 1,"entries": [{"type": "minecraft:item","functions": [{"function": "minecraft:set_nbt","tag": "{display:{Name:'{\"translate\":\"crc.acaciaStool\"}'},CustomModelData:1014019,crcItem:1,EntityTag:{Silent:1b,DeathLootTable:\"/\",NoAI:1b,Tags:[\"CRC_stool\",\"CRC_acacia\",\"CRC_ghostRabbit\"]}}"}],"name": "minecraft:rabbit_spawn_egg"}]}]}
