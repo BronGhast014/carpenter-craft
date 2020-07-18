@@ -1,8 +1,8 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.15.2 +
-# Copyright: January / 2020
-# Discription: Runs the commands that execute every tick
+# Version: 1.16.2 +
+# Copyright: June / 2020
+# Discription: Executes every tick
 ################################################################################
 
 #keep falling blocks from being destroyed
