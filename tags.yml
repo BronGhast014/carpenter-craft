@@ -1,1 +1,18 @@
 # A list of all the tags and what they do
+
+CRC_block: a furniture item
+CRC_new: furniture taht was just spawnd in this tick
+
+CRC_db: furniture that uses a block as a base
+CRC_dm: furniture that uses a mob as a base
+
+CRC_merges: furniture that can merege together
+CRC_dye: furniture that can be dyed
+CRC_seat: furniture that can be sat on
+CRC_needsLight: A model that will look dark due to being inside of a block
+
+CRC_lamaSeat: for a seat that uses a lama
+CRC_pigSeat: for a seat that uses a pig
+
+CRC_model: the entity that has the furniture's model
+CRC_ghostRabbit: the entity used to spawn in furniture
