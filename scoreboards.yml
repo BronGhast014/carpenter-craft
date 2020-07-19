@@ -1,9 +1,18 @@
 # A list of all the scorebords and what they do
 
-# Rules
-
 # Globals
+CRC_installed: whether or not the pack is installed
 
 # Scoreboards
+CRC_rayCount: counts the length of the raycast
+CRC_rot: used for setting and getting entity rotation
+CRC_color: used to track the color of furnature
+CRC_rotTick:
+CRC_tableUsed:
+CRC_tableItem:
+CRC_hasItem:
+CRC_click: ticks up by one when a player uses a rabbit spawn egg
+CRC_useTool: ticks up by one when a player uses a carrot on a stick
+CRC_craftedBook: ticks up by one when a player crafts the knowalage book
 
 # Constants
