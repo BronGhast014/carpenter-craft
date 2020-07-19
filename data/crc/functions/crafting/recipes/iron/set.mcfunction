@@ -9,8 +9,8 @@
 #  10,12  15,16,17
 #         24,25,26
 
-replaceitem block ~ ~ ~ container.6 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.ironChair1"}'},CustomModelData:1014013,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_chair","CRC_iron","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.7 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.ironChair2"}'},CustomModelData:1014014,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_chair2","CRC_iron","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.8 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.ironStool"}'},CustomModelData:1014027,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_stool","CRC_iron","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.15 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.ironCabnet"}'},CustomModelData:1014036,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_cabnet","CRC_iron","CRC_ghostRabbit"]}} 1
+loot replace block ~ ~ ~ container.6 loot crc:items/iron_fancy
+loot replace block ~ ~ ~ container.7 loot crc:items/iron_solidback
+loot replace block ~ ~ ~ container.8 loot crc:items/iron_stool
+loot replace block ~ ~ ~ container.15 loot crc:items/iron_cabnet
 scoreboard players set @s CRC_tableUsed 16

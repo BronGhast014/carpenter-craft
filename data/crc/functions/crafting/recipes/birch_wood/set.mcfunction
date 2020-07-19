@@ -9,11 +9,11 @@
 #  10,12  15,16,17
 #         24,25,26
 
-replaceitem block ~ ~ ~ container.6 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.birchChair1"}'},CustomModelData:1014002,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_chair","CRC_birch","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.7 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.birchChair2"}'},CustomModelData:1014008,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_chair2","CRC_birch","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.8 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.birchStool"}'},CustomModelData:1014016,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_stool","CRC_birch","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.15 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.birchStool2"}'},CustomModelData:1014022,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_stool2","CRC_birch","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.16 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.birchTable1"}'},CustomModelData:1014041,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_table","CRC_birch","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.17 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.birchTable2"}'},CustomModelData:1014065,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_table2","CRC_birch","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.24 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.birchCabnet"}'},CustomModelData:1014031,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_cabnet","CRC_birch","CRC_ghostRabbit"]}} 1
+loot replace block ~ ~ ~ container.6 loot crc:items/birch_highback
+loot replace block ~ ~ ~ container.7 loot crc:items/birch_solidback
+loot replace block ~ ~ ~ container.8 loot crc:items/birch_stool
+loot replace block ~ ~ ~ container.15 loot crc:items/birch_stool_carved
+loot replace block ~ ~ ~ container.16 loot crc:items/birch_table
+loot replace block ~ ~ ~ container.17 loot crc:items/birch_side_table
+loot replace block ~ ~ ~ container.24 loot crc:items/birch_cabnet
 scoreboard players set @s CRC_tableUsed 2

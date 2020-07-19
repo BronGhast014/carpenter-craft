@@ -9,11 +9,11 @@
 #  10,12  15,16,17
 #         24,25,26
 
-replaceitem block ~ ~ ~ container.6 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.jungleChair1"}'},CustomModelData:1014006,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_chair","CRC_jungle","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.7 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.jungleChair2"}'},CustomModelData:1014012,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_chair2","CRC_jungle","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.8 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.jungleStool"}'},CustomModelData:1014020,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_stool","CRC_jungle","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.15 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.jungleStool2"}'},CustomModelData:1014026,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_stool2","CRC_jungle","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.16 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.jungleTable1"}'},CustomModelData:1014057,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_table","CRC_jungle","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.17 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.jungleTable2"}'},CustomModelData:1014081,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_table2","CRC_jungle","CRC_ghostRabbit"]}} 1
-replaceitem block ~ ~ ~ container.24 minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.jungleCabnet"}'},CustomModelData:1014035,crcItem:1,crcCraftedItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_cabnet","CRC_jungle","CRC_ghostRabbit"]}} 1
+loot replace block ~ ~ ~ container.6 loot crc:items/jungle_highback
+loot replace block ~ ~ ~ container.7 loot crc:items/jungle_solidback
+loot replace block ~ ~ ~ container.8 loot crc:items/jungle_stool
+loot replace block ~ ~ ~ container.15 loot crc:items/jungle_stool_carved
+loot replace block ~ ~ ~ container.16 loot crc:items/jungle_table
+loot replace block ~ ~ ~ container.17 loot crc:items/jungle_side_table
+loot replace block ~ ~ ~ container.24 loot crc:items/jungle_cabnet
 scoreboard players set @s CRC_tableUsed 6
