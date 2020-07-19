@@ -13,6 +13,8 @@
 function crc:crafting/table/count_output
 function crc:crafting/table/lock
 
+function crc:crafting/recipes/tool/craft
+
 function crc:crafting/recipes/oak_wood/craft
 function crc:crafting/recipes/birch_wood/craft
 function crc:crafting/recipes/spruce_wood/craft
