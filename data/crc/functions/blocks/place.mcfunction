@@ -124,4 +124,4 @@ execute if entity @s[tag=CRC_cabnet,tag=CRC_iron] run summon armor_stand ~ ~ ~ {
 #stop rabbit sounds
 stopsound @a neutral minecraft:entity.rabbit.ambient
 #remove the rabbit
-tp @e[tag=CRC_ghostRabbit] ~ ~-600 ~
+tp @e[type=rabbit,tag=CRC_ghostRabbit] ~ ~-600 ~
