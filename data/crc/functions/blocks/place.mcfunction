@@ -32,6 +32,12 @@ execute if entity @s[tag=CRC_chair2,tag=CRC_jungle] run summon armor_stand ~ ~ ~
 execute if entity @s[tag=CRC_chair,tag=CRC_iron] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_ironChair"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014013}}]}
 execute if entity @s[tag=CRC_chair2,tag=CRC_iron] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_ironChair2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014014}}]}
 
+execute if entity @s[tag=CRC_chair,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_warpedChair"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014117}}]}
+execute if entity @s[tag=CRC_chair2,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_warpedChair2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014116}}]}
+execute if entity @s[tag=CRC_chair,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_crimsonChair"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014119}}]}
+execute if entity @s[tag=CRC_chair2,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_crimsonChair2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014118}}]}
+
+
 #stools
 execute if entity @s[tag=CRC_stool] run summon pig ~ ~-0.3 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
 execute if entity @s[tag=CRC_stool2] run summon pig ~ ~-0.3 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
@@ -48,6 +54,11 @@ execute if entity @s[tag=CRC_stool2,tag=CRC_darkOak] run summon armor_stand ~ ~ 
 execute if entity @s[tag=CRC_stool2,tag=CRC_acacia] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_2","CRC_falls","CRC_model","CRC_dm","CRC_acaciaStool2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014025}}]}
 execute if entity @s[tag=CRC_stool2,tag=CRC_jungle] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_2","CRC_falls","CRC_model","CRC_dm","CRC_jungleStool2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014026}}]}
 execute if entity @s[tag=CRC_stool,tag=CRC_iron] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_2","CRC_falls","CRC_model","CRC_dm","CRC_ironStool"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014027}}]}
+
+execute if entity @s[tag=CRC_stool,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_2","CRC_falls","CRC_model","CRC_dm","CRC_warpedStool"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014120}}]}
+execute if entity @s[tag=CRC_stool2,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_2","CRC_falls","CRC_model","CRC_dm","CRC_warpedStool2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014121}}]}
+execute if entity @s[tag=CRC_stool,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_2","CRC_falls","CRC_model","CRC_dm","CRC_crimsonStool"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014122}}]}
+execute if entity @s[tag=CRC_stool2,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["id_2","CRC_falls","CRC_model","CRC_dm","CRC_crimsonStool2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014123}}]}
 
 #tables
 execute if entity @s[tag=CRC_table] run setblock ~ ~ ~ petrified_oak_slab[type=top]
@@ -68,6 +79,12 @@ execute if entity @s[tag=CRC_table2,tag=CRC_jungle] run summon armor_stand ~ ~ ~
 execute if entity @s[tag=CRC_table,tag=CRC_glass] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_model","CRC_db","CRC_ironTable"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014085}}]}
 execute if entity @s[tag=CRC_table3,tag=CRC_glass] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_model","CRC_db","CRC_ironTable2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014086}}]}
 
+execute if entity @s[tag=CRC_table,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:1b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_model","CRC_db","CRC_warpedTable","CRC_merges"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014002}}]}
+execute if entity @s[tag=CRC_table2,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_model","CRC_db","CRC_warpedTable2","CRC_merges2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014002}}]}
+execute if entity @s[tag=CRC_table,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:1b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_model","CRC_db","CRC_crimsonTable","CRC_merges"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014002}}]}
+execute if entity @s[tag=CRC_table2,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_model","CRC_db","CRC_crimsonTable2","CRC_merges2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014002}}]}
+
+
 #lamps
 execute if entity @s[tag=CRC_lamp] run setblock ~ ~ ~ end_rod
 execute if entity @s[tag=CRC_lamp2] run setblock ~ ~ ~ end_rod
@@ -83,6 +100,9 @@ execute if entity @s[tag=CRC_lamp2,tag=CRC_birch] run summon armor_stand ~ ~ ~ {
 execute if entity @s[tag=CRC_lamp2,tag=CRC_spruce] run summon armor_stand ~ ~ ~ {NoGravity:1b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_model","CRC_db","CRC_spruceseaLamp"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014096}}]}
 execute if entity @s[tag=CRC_lamp2,tag=CRC_darkOak] run summon armor_stand ~ ~ ~ {NoGravity:1b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_model","CRC_db","CRC_darkOakseaLamp"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014097}}]}
 execute if entity @s[tag=CRC_lamp2,tag=CRC_acacia] run summon armor_stand ~ ~ ~ {NoGravity:1b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_model","CRC_db","CRC_acaciaseaLamp"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014098}}]}
+
+execute if entity @s[tag=CRC_lamp,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:1b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_model","CRC_db","CRC_warpedLamp"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014101}}]}
+execute if entity @s[tag=CRC_lamp,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:1b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_model","CRC_db","CRC_crimsonLamp"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014102}}]}
 
 #sofas
 execute if entity @s[tag=CRC_sofa2] run setblock ~ ~ ~ structure_void
@@ -113,6 +133,9 @@ execute if entity @s[tag=CRC_cabnet,tag=CRC_darkOak] run setblock ~ ~ ~ barrel[f
 execute if entity @s[tag=CRC_cabnet,tag=CRC_acacia] run setblock ~ ~ ~ barrel[facing=up]{LootTable:"/",CustomName:'{"translate":"crc.acaciaCabnet"}'}
 execute if entity @s[tag=CRC_cabnet,tag=CRC_jungle] run setblock ~ ~ ~ barrel[facing=up]{LootTable:"/",CustomName:'{"translate":"crc.jungleCabnet"}'}
 execute if entity @s[tag=CRC_cabnet,tag=CRC_iron] run setblock ~ ~ ~ barrel[facing=up]{LootTable:"/",CustomName:'{"translate":"crc.ironCabnet"}'}
+execute if entity @s[tag=CRC_cabnet,tag=CRC_warped] run setblock ~ ~ ~ barrel[facing=up]{LootTable:"/",CustomName:'{"translate":"crc.warpedCabnet"}'}
+execute if entity @s[tag=CRC_cabnet,tag=CRC_crimson] run setblock ~ ~ ~ barrel[facing=up]{LootTable:"/",CustomName:'{"translate":"crc.crimsonCabnet"}'}
+
 execute if entity @s[tag=CRC_cabnet,tag=CRC_oak] run summon armor_stand ~ ~ ~ {Marker:0b,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_needsLight","CRC_model","CRC_db","CRC_oakCabnet"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014030}}]}
 execute if entity @s[tag=CRC_cabnet,tag=CRC_birch] run summon armor_stand ~ ~ ~ {Marker:0b,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_needsLight","CRC_model","CRC_db","CRC_birchCabnet"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014031}}]}
 execute if entity @s[tag=CRC_cabnet,tag=CRC_spruce] run summon armor_stand ~ ~ ~ {Marker:0b,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_needsLight","CRC_model","CRC_db","CRC_spruceCabnet"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014032}}]}
@@ -120,6 +143,9 @@ execute if entity @s[tag=CRC_cabnet,tag=CRC_darkOak] run summon armor_stand ~ ~ 
 execute if entity @s[tag=CRC_cabnet,tag=CRC_acacia] run summon armor_stand ~ ~ ~ {Marker:0b,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_needsLight","CRC_model","CRC_db","CRC_acaciaCabnet"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014034}}]}
 execute if entity @s[tag=CRC_cabnet,tag=CRC_jungle] run summon armor_stand ~ ~ ~ {Marker:0b,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_needsLight","CRC_model","CRC_db","CRC_jungleCabnet"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014035}}]}
 execute if entity @s[tag=CRC_cabnet,tag=CRC_iron] run summon armor_stand ~ ~ ~ {Marker:0b,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_needsLight","CRC_model","CRC_db","CRC_ironCabnet"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014036}}]}
+
+execute if entity @s[tag=CRC_cabnet,tag=CRC_warped] run summon armor_stand ~ ~ ~ {Marker:0b,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_needsLight","CRC_model","CRC_db","CRC_warpedCabnet"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014124}}]}
+execute if entity @s[tag=CRC_cabnet,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {Marker:0b,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_needsLight","CRC_model","CRC_db","CRC_crimsonCabnet"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014125}}]}
 
 #stop rabbit sounds
 stopsound @a neutral minecraft:entity.rabbit.ambient
