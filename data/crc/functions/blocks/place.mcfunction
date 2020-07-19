@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.15.2 +
-# Copyright: January / 2020
+# Version: 1.16 +
+# Copyright: July / 2020
 # Discription: replaces the ghost rabbit with the correct block
 ################################################################################
 
@@ -99,6 +99,11 @@ execute if entity @s[tag=CRC_sofa2,tag=CRC_spruce] run summon armor_stand ~ ~ ~ 
 execute if entity @s[tag=CRC_sofa2,tag=CRC_darkOak] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_dyes","CRC_model","CRC_db","CRC_darkOakOttoman","CRC_merges4"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014017}}]}
 execute if entity @s[tag=CRC_sofa2,tag=CRC_acacia] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_dyes","CRC_model","CRC_db","CRC_acaciaOttoman","CRC_merges4"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014021}}]}
 execute if entity @s[tag=CRC_sofa2,tag=CRC_jungle] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_dyes","CRC_model","CRC_db","CRC_jungleOttoman","CRC_merges4"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014025}}]}
+execute if entity @s[tag=CRC_sofa2,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_dyes","CRC_model","CRC_db","CRC_warpedOttoman","CRC_merges4"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014047}}]}
+execute if entity @s[tag=CRC_sofa2,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_new","CRC_dyes","CRC_model","CRC_db","CRC_crimsonOttoman","CRC_merges4"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014054}}]}
+execute if entity @s[tag=CRC_sofa,tag=CRC_warped] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_dyes","id_3","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_warpedSofa","CRC_merges3"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014050}}]}
+execute if entity @s[tag=CRC_sofa,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_dyes","id_3","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_crimsonSofa","CRC_merges3"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014057}}]}
+
 
 #cabnets
 execute if entity @s[tag=CRC_cabnet,tag=CRC_oak] run setblock ~ ~ ~ barrel[facing=up]{LootTable:"/",CustomName:'{"translate":"crc.oakCabnet"}'}
