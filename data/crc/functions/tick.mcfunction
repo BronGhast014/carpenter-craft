@@ -18,8 +18,9 @@ scoreboard players add @e[type=minecraft:armor_stand,tag=CRC_needsLight] CRC_rot
 scoreboard players add @e[type=minecraft:armor_stand,tag=CRC_noGravity] CRC_rotTick 1
 #set model to Marker and No Gravity
 execute as @e[type=minecraft:armor_stand,scores={CRC_rotTick=2..}] run data merge entity @s {Marker:1b,NoGravity:1b}
+execute as @e[type=minecraft:armor_stand,scores={CRC_rotTick=2..}] run tag @s remove CRC_noGravity
 #lock the score at 11
-scoreboard players set @e[type=minecraft:armor_stand,scores={CRC_rotTick=2..}] CRC_rotTick 11
+scoreboard players set @e[type=minecraft:armor_stand,scores={CRC_rotTick=2..10}] CRC_rotTick 11
 #set the model on fire to keep from going dark
 execute as @e[type=minecraft:armor_stand,tag=CRC_needsLight] run data merge entity @s {Fire:9}
 
