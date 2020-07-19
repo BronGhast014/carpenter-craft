@@ -16,3 +16,5 @@ CRC_pigSeat: for a seat that uses a pig
 
 CRC_model: the entity that has the furniture's model
 CRC_ghostRabbit: the entity used to spawn in furniture
+
+CRC_canEditRot: furniture that can be rotated
