@@ -14,3 +14,4 @@ CRC_hasItem: wether or not the player is holding a custom item
 CRC_click: ticks up by one when a player uses a rabbit spawn egg
 CRC_useTool: ticks up by one when a player uses a carrot on a stick
 CRC_craftedBook: ticks up by one when a player crafts the knowalage book
+CRC_frameState: whether or not the item fram is active
