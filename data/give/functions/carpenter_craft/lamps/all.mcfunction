@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.15.2 +
-# Copyright: January / 2020
+# Version: 1.16 +
+# Copyright: July / 2020
 ################################################################################
 
 execute as @s run function give:carpenter_craft/lamps/oak_lamp
@@ -18,3 +18,6 @@ execute as @s run function give:carpenter_craft/lamps/dark_oak_sea_lamp
 execute as @s run function give:carpenter_craft/lamps/acacia_sea_lamp
 
 execute as @s run function give:carpenter_craft/lamps/iron_lamp
+
+execute as @s run function give:carpenter_craft/lamps/crimson_lamp
+execute as @s run function give:carpenter_craft/lamps/warped_lamp

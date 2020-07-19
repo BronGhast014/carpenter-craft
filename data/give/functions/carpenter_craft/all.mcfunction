@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.15.2 +
-# Copyright: January / 2020
+# Version: 1.16 +
+# Copyright: July / 2020
 ################################################################################
 
 execute as @s run function give:carpenter_craft/tool

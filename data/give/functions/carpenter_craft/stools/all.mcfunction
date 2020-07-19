@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.15.2 +
-# Copyright: January / 2020
+# Version: 1.16 +
+# Copyright: July / 2020
 ################################################################################
 
 execute as @s run function give:carpenter_craft/stools/oak_stool
@@ -19,3 +19,8 @@ execute as @s run function give:carpenter_craft/stools/acacia_stool_carved
 execute as @s run function give:carpenter_craft/stools/jungle_stool_carved
 
 execute as @s run function give:carpenter_craft/stools/iron_stool
+
+execute as @s run function give:carpenter_craft/stools/warped_stool
+execute as @s run function give:carpenter_craft/stools/warped_stool_carved
+execute as @s run function give:carpenter_craft/stools/crimson_stool
+execute as @s run function give:carpenter_craft/stools/crimson_stool_carved
