@@ -13,6 +13,7 @@ tp @e[tag=CRC_model] ~ ~-600 ~
 # remove scoreboards
 scoreboard objectives remove CRC_rayCount
 scoreboard objectives remove CRC_rot
+scoreboard objectives remove CRC_frameState
 
 scoreboard objectives remove CRC_color
 scoreboard objectives remove CRC_rotTick
