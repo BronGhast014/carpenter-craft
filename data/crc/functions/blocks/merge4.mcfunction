@@ -5,7 +5,7 @@
 # Discription: merges ottomans together
 ################################################################################
 
-#get its current state
+# get its current state
 execute if block ^1 ^ ^ structure_void if block ^-1 ^ ^ structure_void run tag @s add center
 execute if block ^1 ^ ^ structure_void if block ^-1 ^ ^ structure_void run tag @s remove left
 execute if block ^1 ^ ^ structure_void if block ^-1 ^ ^ structure_void run tag @s remove right
@@ -26,10 +26,10 @@ execute unless block ^1 ^ ^ structure_void unless block ^-1 ^ ^ structure_void r
 execute unless block ^1 ^ ^ structure_void unless block ^-1 ^ ^ structure_void run tag @s remove right
 execute unless block ^1 ^ ^ structure_void unless block ^-1 ^ ^ structure_void run tag @s remove left
 
-#store color
+# store color
 execute store result score @s CRC_color run data get entity @s ArmorItems[3].tag.display.color
 
-#set its model accordingly
+# set its model accordingly
 data merge entity @s[tag=CRC_oakOttoman,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014005}}]}
 data merge entity @s[tag=CRC_birchOttoman,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014009}}]}
 data merge entity @s[tag=CRC_spruceOttoman,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014013}}]}
@@ -64,5 +64,5 @@ data merge entity @s[tag=CRC_acaciaOttoman,tag=center] {ArmorItems:[{},{},{},{id
 data merge entity @s[tag=CRC_warpedOttoman,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014038}}]}
 data merge entity @s[tag=CRC_crimsonOttoman,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014038}}]}
 
-#restore color
+# restore color
 execute store result entity @s ArmorItems[3].tag.display.color long 1 run scoreboard players get @s CRC_color
