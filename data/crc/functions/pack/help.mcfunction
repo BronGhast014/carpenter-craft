@@ -1,8 +1,8 @@
 ################################################################################
 # Authors: BronGhast014
 # Version: 1.16.2 +
-# Copyright: June / 2020
-# Discription: Provides help with creatures plus for @s
+# Copyright: July / 2020
+# Discription: Provides help with Carpenter Craft for @s
 ################################################################################
 
 tellraw @s [{"translate":"crc.help.title","color":"yellow"}]
