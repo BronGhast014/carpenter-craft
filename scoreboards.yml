@@ -7,12 +7,9 @@ CRC_installed: whether or not the pack is installed
 CRC_rayCount: counts the length of the raycast
 CRC_rot: used for setting and getting entity rotation
 CRC_color: used to track the color of furnature
-CRC_rotTick:
-CRC_tableUsed:
-CRC_tableItem:
-CRC_hasItem:
+CRC_rotTick: ticks up on entitys who had thier rotation changed so make sure changes are applied
+CRC_tableUsed: used to identify which custom recipe is being crafted
+CRC_tableItem: how many items are in the custom crafter output
 CRC_click: ticks up by one when a player uses a rabbit spawn egg
 CRC_useTool: ticks up by one when a player uses a carrot on a stick
 CRC_craftedBook: ticks up by one when a player crafts the knowalage book
-
-# Constants

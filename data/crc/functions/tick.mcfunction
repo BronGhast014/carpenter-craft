@@ -37,12 +37,8 @@ execute as @a[scores={CRC_craftedBook=1..}] run function crc:crafting/replace_bo
 
 #check for new blocks
 execute as @e[type=minecraft:rabbit,tag=CRC_ghostRabbit] at @s run function crc:blocks/place
-execute as @a[scores={CRC_click=1..,CRC_hasItem=1..}] at @s run function crc:ray/cast
+execute as @a[scores={CRC_click=1..},predicate=crc:has_custom_item] at @s run function crc:ray/cast
 execute as @a[scores={CRC_useTool=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{crcItem:1}}}] at @s run function crc:tool/use
-
-#set players item score
-scoreboard players set @a[nbt=!{SelectedItem:{id:"minecraft:rabbit_spawn_egg",tag:{crcItem:1}}}] CRC_hasItem 0
-scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:rabbit_spawn_egg",tag:{crcItem:1}}}] CRC_hasItem 1
 
 #reset scoreboards
 scoreboard players set @a CRC_click 0

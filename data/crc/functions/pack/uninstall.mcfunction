@@ -20,7 +20,6 @@ scoreboard objectives remove CRC_rotTick
 scoreboard objectives remove CRC_tableUsed
 scoreboard objectives remove CRC_tableItem
 
-scoreboard objectives remove CRC_hasItem
 scoreboard objectives remove CRC_click
 scoreboard objectives remove CRC_useTool
 scoreboard objectives remove CRC_craftedBook

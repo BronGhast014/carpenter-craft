@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "nbt": "{SelectedItem:{id:\"minecraft:rabbit_spawn_egg\",tag:{crcItem:1}}}"
+  }
+}
