@@ -5,7 +5,7 @@
 # Discription: merges sofas together
 ################################################################################
 
-#get its current state
+# get its current state
 
 tag @s remove center
 tag @s remove left
@@ -24,10 +24,10 @@ execute positioned ^-1 ^ ^ if entity @e[tag=CRC_merges3,distance=..0.3] position
 execute positioned ^-1 ^ ^ if entity @e[tag=CRC_merges3,distance=..0.3] positioned ^1 ^ ^1 if entity @e[tag=CRC_merges3,distance=..0.3] run tag @s remove left
 execute positioned ^-1 ^ ^ if entity @e[tag=CRC_merges3,distance=..0.3] positioned ^1 ^ ^1 if entity @e[tag=CRC_merges3,distance=..0.3] run tag @s remove right
 
-#store color
+# store color
 execute store result score @s CRC_color run data get entity @s ArmorItems[3].tag.display.color
 
-#set its model accordingly
+# set its model accordingly
 data merge entity @s[tag=CRC_oakSofa,tag=corner] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014026}}]}
 data merge entity @s[tag=CRC_birchSofa,tag=corner] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014028}}]}
 data merge entity @s[tag=CRC_spruceSofa,tag=corner] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014030}}]}
@@ -74,5 +74,5 @@ data merge entity @s[tag=CRC_jungleSofa,tag=center] {ArmorItems:[{},{},{},{id:"m
 data merge entity @s[tag=CRC_warpedSofa,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014001}}]}
 data merge entity @s[tag=CRC_crimsonSofa,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014001}}]}
 
-#restore color
+# restore color
 execute store result entity @s ArmorItems[3].tag.display.color long 1 run scoreboard players get @s CRC_color
