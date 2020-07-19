@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.15.2 +
-# Copyright: January / 2020
+# Version: 1.16 +
+# Copyright: July / 2020
 ################################################################################
 
 scoreboard players set @s[nbt={Inventory:[{id:"minecraft:knowledge_book"}]}] CRC_craftedBook 0
