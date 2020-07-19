@@ -7,6 +7,10 @@
 
 #note: this also inverts the values for athstetic placement
 
+# clamp score
+scoreboard players set @s[scores={CRC_rot=5..}] CRC_rot 1
+scoreboard players set @s[scores={CRC_rot=..0}] CRC_rot 4
+
 #south
 data merge entity @s[scores={CRC_rot=3}] {Rotation:[0F,0F]}
 #west
