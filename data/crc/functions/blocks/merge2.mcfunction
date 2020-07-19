@@ -33,6 +33,8 @@ data merge entity @s[tag=CRC_spruceTable2,tag=single] {ArmorItems:[{},{},{},{id:
 data merge entity @s[tag=CRC_darkOakTable2,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014073}}]}
 data merge entity @s[tag=CRC_acaciaTable2,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014077}}]}
 data merge entity @s[tag=CRC_jungleTable2,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014081}}]}
+data merge entity @s[tag=CRC_warpedTable2,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014130}}]}
+data merge entity @s[tag=CRC_crimsonTable2,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014138}}]}
 
 data merge entity @s[tag=CRC_oakTable2,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014062}}]}
 data merge entity @s[tag=CRC_birchTable2,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014066}}]}
@@ -40,6 +42,8 @@ data merge entity @s[tag=CRC_spruceTable2,tag=center] {ArmorItems:[{},{},{},{id:
 data merge entity @s[tag=CRC_darkOakTable2,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014074}}]}
 data merge entity @s[tag=CRC_acaciaTable2,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014078}}]}
 data merge entity @s[tag=CRC_jungleTable2,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014082}}]}
+data merge entity @s[tag=CRC_warpedTable2,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014131}}]}
+data merge entity @s[tag=CRC_crimsonTable2,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014139}}]}
 
 data merge entity @s[tag=CRC_oakTable2,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014063}}]}
 data merge entity @s[tag=CRC_birchTable2,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014067}}]}
@@ -47,6 +51,8 @@ data merge entity @s[tag=CRC_spruceTable2,tag=left] {ArmorItems:[{},{},{},{id:"m
 data merge entity @s[tag=CRC_darkOakTable2,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014075}}]}
 data merge entity @s[tag=CRC_acaciaTable2,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014079}}]}
 data merge entity @s[tag=CRC_jungleTable2,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014083}}]}
+data merge entity @s[tag=CRC_warpedTable2,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014132}}]}
+data merge entity @s[tag=CRC_crimsonTable2,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014140}}]}
 
 data merge entity @s[tag=CRC_oakTable2,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014064}}]}
 data merge entity @s[tag=CRC_birchTable2,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014068}}]}
@@ -54,3 +60,5 @@ data merge entity @s[tag=CRC_spruceTable2,tag=right] {ArmorItems:[{},{},{},{id:"
 data merge entity @s[tag=CRC_darkOakTable2,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014076}}]}
 data merge entity @s[tag=CRC_acaciaTable2,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014080}}]}
 data merge entity @s[tag=CRC_jungleTable2,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014084}}]}
+data merge entity @s[tag=CRC_warpedTable2,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014133}}]}
+data merge entity @s[tag=CRC_crimsonTable2,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014141}}]}
