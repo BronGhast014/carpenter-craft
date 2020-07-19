@@ -5,4 +5,4 @@
 # Discription: Runs the commands that execute every tick
 ################################################################################
 
-give @p minecraft:rabbit_spawn_egg{display:{Name:'{"translate":"crc.darkOakStool2"}'},CustomModelData:1014024,crcItem:1,EntityTag:{Silent:1b,DeathLootTable:"/",NoAI:1b,Tags:["CRC_stool2","CRC_darkOak","CRC_ghostRabbit"]}} 1
+loot give @s loot crc:items/dark_oak_stool_carved
