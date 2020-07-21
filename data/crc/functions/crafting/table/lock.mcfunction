@@ -26,5 +26,7 @@ replaceitem block ~ ~ ~ container.20 cod{display:{Name:"{\"text\":\"§1\"}"},Cus
 replaceitem block ~ ~ ~ container.21 cod{display:{Name:"{\"text\":\"§1\"}"},CustomModelData:1014001,GridBlock:1b} 1
 replaceitem block ~ ~ ~ container.22 cod{display:{Name:"{\"text\":\"§1\"}"},CustomModelData:1014001,GridBlock:1b} 1
 replaceitem block ~ ~ ~ container.23 cod{display:{Name:"{\"text\":\"§1\"}"},CustomModelData:1014001,GridBlock:1b} 1
+
 clear @a cod{GridBlock:1b}
+
 kill @e[type=item,nbt={Item:{tag:{GridBlock:1b}}}]
