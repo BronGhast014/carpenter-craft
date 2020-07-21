@@ -48,7 +48,7 @@ data merge entity @s[tag=CRC_warpedSofa,tag=single] {ArmorItems:[{},{},{},{id:"m
 data merge entity @s[tag=CRC_crimsonSofa,tag=single] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014057}}]}
 
 data merge entity @s[tag=CRC_oakSofa,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014004}}]}
-data merge entity @s[tag=CRC_birchSofa,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:101408}}]}
+data merge entity @s[tag=CRC_birchSofa,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014008}}]}
 data merge entity @s[tag=CRC_spruceSofa,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014012}}]}
 data merge entity @s[tag=CRC_darkOakSofa,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014016}}]}
 data merge entity @s[tag=CRC_acaciaSofa,tag=left] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014020}}]}
