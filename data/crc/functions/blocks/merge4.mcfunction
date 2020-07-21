@@ -53,6 +53,7 @@ data merge entity @s[tag=CRC_birchOttoman,tag=right] {ArmorItems:[{},{},{},{id:"
 data merge entity @s[tag=CRC_spruceOttoman,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014041}}]}
 data merge entity @s[tag=CRC_darkOakOttoman,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014042}}]}
 data merge entity @s[tag=CRC_acaciaOttoman,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014043}}]}
+data merge entity @s[tag=CRC_jungleOttoman,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014044}}]}
 data merge entity @s[tag=CRC_warpedOttoman,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014045}}]}
 data merge entity @s[tag=CRC_crimsonOttoman,tag=right] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014052}}]}
 
@@ -61,6 +62,7 @@ data merge entity @s[tag=CRC_birchOttoman,tag=center] {ArmorItems:[{},{},{},{id:
 data merge entity @s[tag=CRC_spruceOttoman,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014038}}]}
 data merge entity @s[tag=CRC_darkOakOttoman,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014038}}]}
 data merge entity @s[tag=CRC_acaciaOttoman,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014038}}]}
+data merge entity @s[tag=CRC_jungleOttoman,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014038}}]}
 data merge entity @s[tag=CRC_warpedOttoman,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014038}}]}
 data merge entity @s[tag=CRC_crimsonOttoman,tag=center] {ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:1014038}}]}
 
