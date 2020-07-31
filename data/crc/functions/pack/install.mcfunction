@@ -22,7 +22,7 @@ scoreboard objectives add CRC_tableItem dummy
 
 scoreboard objectives add CRC_hasItem dummy
 scoreboard objectives add CRC_click minecraft.used:minecraft.rabbit_spawn_egg
-scoreboard objectives add CRC_useTool minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add CRC_useTool minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add CRC_craftedBook minecraft.crafted:minecraft.knowledge_book
 
 #endregion
