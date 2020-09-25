@@ -1,31 +1,17 @@
 {
-  "display": {
-    "icon": {
-      "item": "knowlage_book",
-      "nbt": "{1014001}"
-    },
-    "title": {
-      "translate": "crc.advancements.root.title"
-    },
-    "description": {
-      "translate": "crc.advancements.root.description"
-    },
-    "background": "crc::textures/gui/advancements/backgrounds/crc.png",
-    "show_toast": true
-  },
   "rewards": {
     "recipes": [
       "crc:work_bench"
     ]
   },
   "criteria": {
-    "crc_adv_root": {
-      "trigger": "minecraft:tick"
+    "crc_adv_craft": {
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
     [
-      "crc_adv_root"
+      "crc_adv_craft"
     ]
   ]
 }

@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "knowlage_book",
-      "nbt": "{1014001}"
+      "item": "rabbit_spawn_egg",
+      "nbt": "{CustomModelData:1014111}"
     },
     "title": {
       "translate": "crc.advancements.root.title"
@@ -10,7 +10,7 @@
     "description": {
       "translate": "crc.advancements.root.description"
     },
-    "background": "crc::textures/gui/advancements/backgrounds/crc.png",
+    "background": "crc:textures/gui/advancements/backgrounds/crc.png",
     "show_toast": true
   },
   "rewards": {
