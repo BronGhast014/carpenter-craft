@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "recipes": [
+      "crc:work_bench"
+    ]
+  },
+  "criteria": {
+    "crc_adv_sit": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "crc_adv_sit"
+    ]
+  ]
+}
