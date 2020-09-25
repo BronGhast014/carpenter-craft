@@ -46,6 +46,10 @@ execute as @a[scores={CRC_useTool=1..},nbt={SelectedItem:{id:"minecraft:warped_f
 scoreboard players set @a[nbt=!{SelectedItem:{id:"minecraft:rabbit_spawn_egg",tag:{crcItem:1}}}] CRC_hasItem 0
 scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:rabbit_spawn_egg",tag:{crcItem:1}}}] CRC_hasItem 1
 
+# item frames
+execute as @e[type=minecraft:item_frame,tag=CRC_invisaFrame,nbt=!{Item:{}}] run data modify entity @s Invisible set value 0
+execute as @e[type=minecraft:item_frame,tag=CRC_invisaFrame,nbt=!{Item:{}}] run tag @s remove CRC_invisaFrame
+
 #reset scoreboards
 scoreboard players set @a CRC_click 0
 scoreboard players set @a CRC_useTool 0
