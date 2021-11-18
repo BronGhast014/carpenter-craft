@@ -4,7 +4,7 @@ This is my take of what furniture would look like if it was added to Minecraft! 
 
 You can get the items with the following command: /function _give:carpenter_craft/'item you want'
 
-You can find the crafting recipes [Here]()
+You can find the crafting recipes [Here](https://bronghast014.weebly.com/carpenter-craft.html)
 
 ## Features:
 
