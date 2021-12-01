@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: April / 2021
-# Discription: Uninstalls Carpenter Craft
+# Description: Uninstalls Carpenter Craft
 ################################################################################
 
 # remove entities

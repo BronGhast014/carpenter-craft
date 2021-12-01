@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: Runs what happens when the ray hits a block
+# Description: Runs what happens when the ray hits a block
 ################################################################################
 
 #locate new blocks and set their rotation

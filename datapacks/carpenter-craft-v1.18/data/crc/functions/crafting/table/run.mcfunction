@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: February / 2021
-# Discription: Runs the custom crafting
+# Description: Runs the custom crafting
 ################################################################################
 
 #Grid:

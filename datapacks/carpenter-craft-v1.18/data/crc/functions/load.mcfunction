@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: Executes each reload
+# Description: Executes each reload
 ################################################################################
 
 # reload message

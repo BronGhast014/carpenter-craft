@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: removes the blocks and drops their items if needed
+# Description: removes the blocks and drops their items if needed
 ################################################################################
 
 # remove vinilla drops

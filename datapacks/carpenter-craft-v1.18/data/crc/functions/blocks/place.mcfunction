@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: replaces the ghost rabbit with the correct block
+# Description: replaces the ghost rabbit with the correct block
 ################################################################################
 
 # -- place items
@@ -15,8 +15,8 @@ scoreboard players set @e[tag=newCRC_wb] CRC_tableUsed 0
 tag @e[tag=newCRC_wb] remove newCRC_wb
 
 #chairs
-execute if entity @s[tag=CRC_chair] run summon pig ~ ~-0.4 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
-execute if entity @s[tag=CRC_chair2] run summon pig ~ ~-0.4 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
+execute if entity @s[tag=CRC_chair] run summon pig ~ ~-0.4 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:1}]}
+execute if entity @s[tag=CRC_chair2] run summon pig ~ ~-0.4 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:1}]}
 execute if entity @s[tag=CRC_chair,tag=CRC_oak] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_canEditRot","id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_oakChair"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014001}}]}
 execute if entity @s[tag=CRC_chair,tag=CRC_birch] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_canEditRot","id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_birchChair"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014002}}]}
 execute if entity @s[tag=CRC_chair,tag=CRC_spruce] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_canEditRot","id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_spruceChair"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014003}}]}
@@ -37,8 +37,8 @@ execute if entity @s[tag=CRC_chair,tag=CRC_crimson] run summon armor_stand ~ ~ ~
 execute if entity @s[tag=CRC_chair2,tag=CRC_crimson] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_canEditRot","id_0","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_crimsonChair2"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014118}}]}
 
 #stools
-execute if entity @s[tag=CRC_stool] run summon pig ~ ~-0.3 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
-execute if entity @s[tag=CRC_stool2] run summon pig ~ ~-0.3 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
+execute if entity @s[tag=CRC_stool] run summon pig ~ ~-0.3 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:1}]}
+execute if entity @s[tag=CRC_stool2] run summon pig ~ ~-0.3 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:1}]}
 execute if entity @s[tag=CRC_stool,tag=CRC_oak] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_canEditRot","id_2","CRC_falls","CRC_model","CRC_dm","CRC_oakStool"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014015}}]}
 execute if entity @s[tag=CRC_stool,tag=CRC_birch] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_canEditRot","id_2","CRC_falls","CRC_model","CRC_dm","CRC_birchStool"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014016}}]}
 execute if entity @s[tag=CRC_stool,tag=CRC_spruce] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_canEditRot","id_2","CRC_falls","CRC_model","CRC_dm","CRC_spruceStool"],ArmorItems:[{},{},{},{id:"minecraft:scaffolding",Count:1b,tag:{CustomModelData:1014017}}]}
@@ -100,7 +100,7 @@ execute if entity @s[tag=CRC_lamp,tag=CRC_crimson] run summon armor_stand ~ ~ ~ 
 
 #sofas
 execute if entity @s[tag=CRC_sofa2] run setblock ~ ~ ~ structure_void
-execute if entity @s[tag=CRC_sofa] run summon pig ~ ~-0.5 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}
+execute if entity @s[tag=CRC_sofa] run summon pig ~ ~-0.5 ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,DeathLootTable:"/",NoAI:1b,Health:1f,Saddle:1b,Tags:["CRC_new","CRC_pigSeat","CRC_seat"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1999980,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:1}]}
 execute if entity @s[tag=CRC_sofa,tag=CRC_oak] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_dyes","CRC_canEditRot","id_3","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_oakSofa","CRC_merges3"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014002}}]}
 execute if entity @s[tag=CRC_sofa,tag=CRC_birch] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_dyes","CRC_canEditRot","id_3","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_birchSofa","CRC_merges3"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014006}}]}
 execute if entity @s[tag=CRC_sofa,tag=CRC_spruce] run summon armor_stand ~ ~ ~ {NoGravity:0b,DisabledSlots:4144959,Small:1b,Invisible:1b,Tags:["CRC_dyes","CRC_canEditRot","id_3","CRC_falls","CRC_new","CRC_model","CRC_dm","CRC_spruceSofa","CRC_merges3"],ArmorItems:[{},{},{},{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16383998},CustomModelData:1014010}}]}

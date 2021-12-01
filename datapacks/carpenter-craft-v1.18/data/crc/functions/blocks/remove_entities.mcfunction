@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: removes the entity furniture and drops their items if needed
+# Description: removes the entity furniture and drops their items if needed
 ################################################################################
 
 # drop items if needed

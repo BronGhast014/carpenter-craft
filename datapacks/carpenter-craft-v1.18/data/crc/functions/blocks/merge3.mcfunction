@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: merges sofas together
+# Description: merges sofas together
 ################################################################################
 
 # get its current state

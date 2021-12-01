@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: dyes blocks
+# Description: dyes blocks
 ################################################################################
 
 execute if entity @e[type=item,nbt={Item:{id:"minecraft:red_dye",Count:1b}},distance=..1,limit=1] run scoreboard players set @s CRC_color 11546150

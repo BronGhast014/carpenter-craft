@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: merges tables together
+# Description: merges tables together
 ################################################################################
 
 #get its current state

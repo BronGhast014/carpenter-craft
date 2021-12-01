@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: Runs the games main loop
+# Description: Runs the games main loop
 ################################################################################
 
 #keep falling blocks from being destroyed

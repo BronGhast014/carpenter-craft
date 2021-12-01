@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: Empties the crafting grid
+# Description: Empties the crafting grid
 ################################################################################
 
 #Grid:

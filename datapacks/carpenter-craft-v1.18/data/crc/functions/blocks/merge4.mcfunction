@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: merges ottomans together
+# Description: merges ottomans together
 ################################################################################
 
 # get its current state

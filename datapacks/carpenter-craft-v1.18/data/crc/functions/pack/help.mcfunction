@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: Provides help with Carpenter Craft for @s
+# Description: Provides help with Carpenter Craft for @s
 ################################################################################
 
 tellraw @s [{"translate":"crc.help.title","color":"yellow"}]

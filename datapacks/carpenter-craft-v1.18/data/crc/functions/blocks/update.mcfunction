@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Discription: keeps chairs from loosing there pig seats
+# Description: keeps chairs from loosing there pig seats
 ################################################################################
 
 # execute if entity @s[tag=id_0] run say @e[tag=CRC_seat,distance=0.8,limit=1,sort=nearest]
