@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","functions":[{"function":"minecraft:set_nbt","tag":"{display:{Name:'{\"translate\":\"crc.jungleChair2\",\"italic\":false}'},CustomModelData:1014012,crcItem:1,EntityTag:{id:\"minecraft:marker\",Tags:[\"CRC_chair2\",\"CRC_jungle\",\"CRC_ghostRabbit\"]}}"}],"name":"minecraft:rabbit_spawn_egg"}]}]}

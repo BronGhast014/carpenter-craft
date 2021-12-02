@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","functions":[{"function":"minecraft:set_nbt","tag":"{display:{Name:'{\"translate\":\"crc.acaciaChair1\",\"italic\":false}'},CustomModelData:1014005,crcItem:1,EntityTag:{id:\"minecraft:marker\",Tags:[\"CRC_chair\",\"CRC_acacia\",\"CRC_ghostRabbit\"]}}"}],"name":"minecraft:rabbit_spawn_egg"}]}]}

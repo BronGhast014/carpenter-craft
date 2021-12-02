@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","functions":[{"function":"minecraft:set_nbt","tag":"{display:{Name:'{\"translate\":\"crc.darkOakTable2\",\"italic\":false}'},CustomModelData:1014073,crcItem:1,EntityTag:{id:\"minecraft:marker\",Tags:[\"CRC_table2\",\"CRC_darkOak\",\"CRC_ghostRabbit\"]}}"}],"name":"minecraft:rabbit_spawn_egg"}]}]}
