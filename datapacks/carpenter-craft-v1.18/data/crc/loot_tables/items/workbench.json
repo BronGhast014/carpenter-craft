@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"crc.workbench\",\"italic\":false}'},CustomModelData:1014111,crcItem:1,EntityTag:{Silent:1b,DeathLootTable:\"/\",NoAI:1b,Tags:[\"CRC_crafting\",\"CRC_ghostRabbit\"]}}"
+              "tag": "{display:{Name:'{\"translate\":\"crc.workbench\",\"italic\":false}'},CustomModelData:1014111,crcItem:1,EntityTag:{id:\"minecraft:marker\",Tags:[\"CRC_crafting\",\"CRC_ghostRabbit\"]}}"
             }
           ],
           "name": "minecraft:rabbit_spawn_egg"

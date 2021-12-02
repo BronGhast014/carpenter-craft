@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.18 +
 # Copyright: July / 2021
-# Description: replaces the ghost rabbit with the correct block
+# Description: replaces the ghost marker with the correct block
 ################################################################################
 
 # -- place items
@@ -162,8 +162,5 @@ execute if entity @s[tag=CRC_cabnet,tag=CRC_iron] unless block ~ ~ ~ #minecraft:
 execute if entity @s[tag=CRC_cabnet,tag=CRC_warped] unless block ~ ~ ~ #minecraft:slabs run setblock ~ ~ ~ barrel[facing=up]{LootTable:"/",CustomName:'{"translate":"crc.warpedCabnet"}'}
 execute if entity @s[tag=CRC_cabnet,tag=CRC_crimson] unless block ~ ~ ~ #minecraft:slabs run setblock ~ ~ ~ barrel[facing=up]{LootTable:"/",CustomName:'{"translate":"crc.crimsonCabnet"}'}
 
-
-#stop rabbit sounds
-stopsound @a neutral minecraft:entity.rabbit.ambient
-#remove the rabbit
-tp @e[type=rabbit,tag=CRC_ghostRabbit] ~ ~-600 ~
+#remove the marker
+kill @e[type=marker,tag=CRC_ghostRabbit]

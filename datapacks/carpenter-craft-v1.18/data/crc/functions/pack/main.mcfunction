@@ -37,7 +37,7 @@ execute as @e[type=minecraft:armor_stand,tag=CRC_workbench] at @s run function c
 execute as @a[scores={CRC_craftedBook=1..}] run function crc:crafting/replace_book
 
 #check for new blocks
-execute as @e[type=minecraft:rabbit,tag=CRC_ghostRabbit] at @s run function crc:blocks/place
+execute as @e[type=minecraft:marker,tag=CRC_ghostRabbit] at @s run function crc:blocks/place
 execute as @a[scores={CRC_click=1..,CRC_hasItem=1..}] at @s run function crc:ray/cast
 
 # tool
